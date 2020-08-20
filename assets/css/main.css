@@ -104,15 +104,14 @@
 		}
 
 		section a{
-			text-decoration: none;
+			text-decoration: underline;
 			color: #17252a;
 			font-size: 17.5px
 		}
 
 		section a:hover {
 			color: #feffff;
-			font-weight: bold;
-			text-decoration: none;
+			text-decoration: underline;
 		}
 
 /* Sidebar */
