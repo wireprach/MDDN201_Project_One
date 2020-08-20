@@ -30,21 +30,18 @@
 /* Body Type */
 
 		@media screen and (max-width: 1680px) {
-
 			body {
 				font-size: 13pt;
 			}
 		}
 
 		@media screen and (max-width: 1280px) {
-
 			body {
 				font-size: 12pt;
 			}
 		}
 
 		@media screen and (max-width: 360px) {
-
 			body {
 				font-size: 11pt;
 		}
@@ -103,17 +100,27 @@
 	 max-width: 1000px;
 	 margin-left: auto;
 	 margin-right: auto;
-   color: #feffff;
-	 font-size: 18px
+	 text-align: center;
+		}
 
+		section a{
+			text-decoration: none;
+			color: #17252a;
+			font-size: 17.5px
+		}
 
-			}
+		section a:hover {
+			color: #feffff;
+			font-weight: bold;
+			text-decoration: none;
+		}
 
 /* Sidebar */
 
 	#sidebar {
 		padding: 2.5em 2.5em 2.5em 2.5em ;
 		background: #17252a;
+		font-size: 19px;
 		cursor: default;
 		height: 90vh;
 		left: 0;
@@ -213,7 +220,9 @@
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(254, 255, 255, 0.55);
+				font-weight: bold;
+				text-decoration: none;
 			}
 
 			#sidebar nav a.active {
